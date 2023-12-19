@@ -1,0 +1,15 @@
+n=[1,2,3,4,5,6,7,8,9,10]
+b=n[0]
+print(b)
+n[0]="Boltu"
+print(n[0])
+n[0]=77
+print(n[0])
+for i in range(0,len(n)):
+    print(n[i],end=" ")
+for i in n:
+    print(i,end=" ")
+n.append("Qutubuddin")
+n.append(96)
+print(n)
+          

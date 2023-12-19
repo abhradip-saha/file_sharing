@@ -1,0 +1,13 @@
+n=int(input("Enter size :- "))
+a=[]
+for i in range(0,n):
+    p=input("Enter string :- ")
+    a.append(p)
+print(a)
+z=a[0]
+t=a[4]
+f=a[5]
+a.remove(z)
+a.remove(t)
+a.remove(f)
+print(a)

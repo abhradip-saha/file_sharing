@@ -1,0 +1,25 @@
+n={"name":"Ram","leader":"Hail our fuhrer hitler","age":90,"gender":["male","straight","aar kita thakto","no lgbtq",["ram straight","aryan race","white","tall"]]}
+print(n)
+#print(n["name"])
+#m={"name":"Ram","sex":"male","age":90,"phone":1234,"phone":3466}
+#print(m)
+#print(len(m))
+print(type(n))
+n=dict(name="Ram",sex="male",age=100,p=["yo","yoyo"])
+print(n)
+a=n["name"]
+print(a)
+b=n["p"]
+print(b)
+c=n.get("sex")
+print(c)
+print(n.keys())
+n["nationality"]="bang"
+print(n)
+print(n.values())
+d=n.items()
+print(d)
+if "gender" in(n):
+    print("Yes")
+else:
+    print("No")

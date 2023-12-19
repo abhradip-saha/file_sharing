@@ -1,0 +1,16 @@
+n=int(input("Enter decimal :- "))
+l=[]
+while(n):
+    r=n%2
+    l.append(r)
+    n=n//2
+l.reverse()
+print(l)
+
+m=input("Enter binary :- ")
+p=len(m)-1
+d=0
+for i in range(0,p+1):
+    d+=(ord(m[i])-ord('0'))*(2**p)
+    p=p-1
+print(d)

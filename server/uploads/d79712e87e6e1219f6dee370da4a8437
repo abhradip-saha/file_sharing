@@ -1,0 +1,20 @@
+s=input("Enter hexadecimal :- ")
+d=0
+p=len(s)-1
+for i in range(0,len(s)):
+    if s[i]=='A':
+        d+=10*(16**p)
+    elif s[i]=='B':
+        d+=11*(16**p)
+    elif s[i]=='C':
+        d+=12*(16**p)
+    elif s[i]=='D':
+        d+=13*(16**p)
+    elif s[i]=='E':
+        d+=14*(16**p)
+    elif s[i]=='F':
+        d+=15*(16**p)
+    else:
+        d+=(ord(s[i])-ord('0'))*(16**p)
+    p=p-1
+print(d)
