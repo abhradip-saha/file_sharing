@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL='http://localhost:8000'
+const API_URL='https://abhradip-file.onrender.com'
 
 export const uploadFile = async (data)=>{
     try {
@@ -11,4 +11,3 @@ export const uploadFile = async (data)=>{
         console.error("Error while calling the api",error.message);
     }
 }
-
