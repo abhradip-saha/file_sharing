@@ -39,7 +39,7 @@ function App() {
       <img src={Image} alt="banner" />
         <h1>Abhradip's File Sharing App</h1>
 
-        <p>Upload and share the download link.</p>
+        <p>Upload file and wait for the download link to appear.</p>
 
         <button onClick={() => onUploadClick()}>Upload</button>
 
