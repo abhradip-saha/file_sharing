@@ -3,6 +3,15 @@ This is a simple file sharing website where we can store files in database that 
 
 ![Screenshot (107)](https://github.com/abhradip-saha/file_sharing/assets/110524706/7d714b38-f39a-4278-ae93-b797806c33a8)
 
+# GITHUB REPOSITORY LINK OF FRONTEND DEPLOYED ON NETLIFY
+
+https://github.com/abhradip-saha/file-sharing-frontend
+
+
+# GITHUB REPOSITORY LINK OF BACKEND DEPLOYED ON RENDER
+
+https://github.com/abhradip-saha/file-sharing-backend
+
 
 # UPLOAD BUTTON
 By clicking the upload button we can upload the files.
