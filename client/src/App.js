@@ -33,8 +33,6 @@ function App() {
       dlink="Download Link"
   return (
     <div className="container">
-      {/* <img src={logo} alt="banner" /> */}
-      
       <div className="wrapper">
       <img src={Image} alt="banner" />
         <h1>Abhradip's File Sharing App</h1>
