@@ -9,10 +9,10 @@ export const uploadImage = async (request, response)=> {
         const file = await File.create(fileObj)
         response.status(200).json({path : `https://abhradip-file.onrender.com/file/${file._id}`})
     }
-        catch(error){
-            console.error(error.message);
-            response.status(500).json({error : error.message})
-        }
+    catch(error){
+        console.error(error.message);
+        response.status(500).json({error : error.message})
+    }
     
 }
 
