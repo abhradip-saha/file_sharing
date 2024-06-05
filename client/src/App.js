@@ -34,18 +34,23 @@ function App() {
   return (
     <div className="container">
       <div className="wrapper">
-          <img src={Image} alt="banner" />
-    
-          <h1>Abhradip's File Sharing App</h1>
-    
-          <p>Upload file and wait for the download link to appear.</p>
-    
-          <button onClick={() => onUploadClick()}>Upload</button>
-  
-          <input type="file" ref={fileInputRef} style={{ display: "none" }} onChange={(e) => setFile(e.target.files[0])} />
-         <div className="link">
-            <a href={result}>{dlink}</a>
-          </div>
+              <img src={Image} alt="banner" />
+        
+              <h1>Abhradip's File Sharing App</h1>
+        
+              <p>Upload file and wait for the download link to appear.</p>
+        
+              <button onClick={() => onUploadClick()}>Upload</button>
+      
+              <input type="file" 
+                    ref={fileInputRef} 
+                    style={{ display: "none" }} 
+                    onChange={(e) => setFile(e.target.files[0])} 
+              />
+             
+              <div className="link">
+                  <a href={result}>{dlink}</a>
+              </div>
       </div>
     </div>
   );
